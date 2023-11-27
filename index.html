@@ -11,23 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;1,100&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9549ba4e78.js" crossorigin="anonymous"></script>    
     <title>Product Card</title>
 </head>
 <body class="bg-cream container p-2">
-    <div class="container mx-auto w-90 max-w-xl bg-pureWhite rounded-md shadow">        
+    <div class="container mx-auto w-90 max-w-xl bg-pureWhite rounded-md shadow-md flex flex-col md:flex-row  md:my-16">        
         <div class="container">
-            <img src="src/assets/img/image-product-mobile.jpg" alt="product" class="rounded-t-md">
+            <img src="src/assets/img/image-product-mobile.jpg" alt="product" class="rounded-t-md md:h-full md:rounded-l">
         </div>
         <div class="container p-4 flex flex-col gap-4">
-            <label class="text-xs">PERFUME</label>
+            <label class="text-xs font-['montserrat']">PERFUME</label>
             <h2 class="font-bold text-3xl font-['Fraunces']">Gabrielle Essence Eau De Parfum</h2>
             <p class="text-sm font-['montserrat']">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
             <div class="container flex fle-row items-center gap-2">
                 <h2 class="text-3xl text-deepAquamarine font-bold font-['Fraunces']">$149.99</h2>
                 <small class="line-through">$169.99</small>
             </div>
-            <button class="bg-deepAquamarine text-pureWhite p-2 hover:bg-deepAquamarineHover text-sm w-full rounded">Add to Cart</button>
+            <button class="bg-deepAquamarine text-pureWhite p-2 hover:bg-deepAquamarineHover text-sm w-full rounded font-['montserrat']  flex justify-center items-center gap-4"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Add to Cart</button>
         </div>
     </div>
 </body>
